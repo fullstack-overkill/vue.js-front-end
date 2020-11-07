@@ -1,0 +1,125 @@
+radius(n)
+	-webkit-border-radius n
+	-moz-border-radius n
+	border-radius n
+
+
+
+radiusmaster(a,b,c,d)
+	-webkit-border-top-left-radius a
+	-moz-border-radius-topleft a
+	border-top-left-radius a
+	-webkit-border-top-right-radius b
+	-moz-border-radius-topright b
+	border-top-right-radius b
+	-webkit-border-bottom-left-radius c
+	-moz-border-radius-bottomleft c
+	border-bottom-left-radius c
+	-webkit-border-bottom-right-radius d
+	-moz-border-radius-bottomright d
+	border-bottom-right-radius d
+
+transition(n)
+	-o-transition n
+	-moz-transition n
+	-webkit-transition n
+
+transitionDefault()
+	-o-transition all 0.2s ease-in-out
+	-moz-transition all 0.2s ease-in-out
+	-webkit-transition all 0.2s ease-in-out
+	
+
+transition2s()
+	-o-transition all 0.2s ease-in-out
+	-moz-transition all 0.2s ease-in-out
+	-webkit-transition all 0.2s ease-in-out
+
+
+transition5s()
+	-o-transition all 0.3s ease-in-out
+	-moz-transition all 0.3s ease-in-out
+	-webkit-transition all 0.3s ease-in-out
+
+transitionTime(time)
+	-o-transition all time ease-in-out
+	-moz-transition all time ease-in-out
+	-webkit-transition all time ease-in-out
+
+opacity(n)
+	-moz-opacity n
+	-khtml-opacity n
+	opacity n
+
+shadow(n)
+	-webkit-box-shadow n
+	-moz-box-shadow n
+	box-shadow n
+	
+shadowDefault(n)
+	-webkit-box-shadow 0 0 30px 0 rgba(0,0,0, n)
+	-moz-box-shadow 0 0 30px 0 rgba(0,0,0, n)
+	box-shadow 0 0 30px 0 rgba(0,0,0, n)
+
+
+shadowDefault2(n)
+	-webkit-box-shadow 0 5px 20px 0 rgba(0,0,0, n)
+	-moz-box-shadow 0 5px 20px 0 rgba(0,0,0, n)
+	box-shadow 0 5px 20px 0 rgba(0,0,0, n)
+
+bgGradiente(a,b)
+	background-image: linear-gradient(to bottom, a, b);
+
+
+bgGradiente2(a,b)
+	background-image: linear-gradient(to right, a, b);
+	
+bgGradiente3(a,b)
+	background-image: linear-gradient(30deg, a, b);
+	
+bgGradiente4(a,b)
+	background-image: linear-gradient(-30deg, a, b);
+
+rotation(n)
+	-ms-transform: rotate(n)
+	-webkit-transform: rotate(n)
+	transform: rotate(n)
+	
+noselect()
+	-webkit-touch-callout none
+	-webkit-user-select none
+	-khtml-user-select none
+	-moz-user-select none
+	-ms-user-select none
+	user-select none
+
+
+
+placeholder(color)
+	input::-webkit-input-placeholder
+		color: color
+	input::-moz-placeholder
+		color: color
+	input:-ms-input-placeholder
+		color: color
+	input:-moz-placeholder
+		color: color;
+
+
+transitionOptions(name, time)
+	-webkit-animation-name name
+	-webkit-animation-duration time
+	-webkit-animation-iteration-count infinite
+	-webkit-animation-timing-function linear
+	-moz-animation-name name
+	-moz-animation-duration time
+	-moz-animation-iteration-count infinite
+	-moz-animation-timing-function linear
+	-ms-animation-name name
+	-ms-animation-duration time
+	-ms-animation-iteration-count infinite
+	-ms-animation-timing-function linear
+	animation-name name
+	animation-duration time
+	animation-iteration-count infinite
+	animation-timing-function linear
