@@ -1,6 +1,12 @@
 <template>
   <nav class="nav">
-    <NuxtLink v-for="(page, index) in pages" :key="page.name" :to="page.url">
+    <NuxtLink
+      v-for="(page, index) in pages"
+      :key="page.name"
+      :to="page.url"
+      ondragstart="return false;"
+      ondrop="return false;"
+    >
       {{ page.name }} <i v-if="pages[index+1]" class="fas fa-circle" />
     </NuxtLink>
   </nav>
