@@ -6,7 +6,9 @@
       <ui-menu-nav />
       <hr>
       <h5>Projects</h5>
-
+      <main>
+        👨‍💻 Under construction
+      </main>
       <hr>
     </div>
   </div>
