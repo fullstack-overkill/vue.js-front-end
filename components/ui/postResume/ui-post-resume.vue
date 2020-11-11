@@ -1,7 +1,11 @@
 <template>
   <nav class="post">
     <div>
-      <h2>Welcome to my blog</h2>
+      <h2>
+        <NuxtLink to="/blog/post/55">
+          Welcome to my blog
+        </NuxtLink>
+      </h2>
       <span>Posted on 13/10/2020</span>
     </div>
     <div>
