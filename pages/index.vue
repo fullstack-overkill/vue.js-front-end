@@ -11,6 +11,8 @@
           <ui-post-resume />
           <ui-post-resume />
           <ui-post-resume />
+          <ui-post-resume />
+          <ui-post-resume />
         </div>
         <hr>
       </div>
